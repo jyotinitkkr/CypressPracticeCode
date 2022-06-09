@@ -1,7 +1,7 @@
 /// <reference types = "Cypress" />
 
 describe('Get API test', ()=>{
-    let accessToken = '0ec41d742792722a7f534b3e25ac264f459841bf3a806e531e425db0d1040dfc'
+    let accessToken = '********'
     it('Get Users', ()=>{
         cy.request({
             method: 'GET',
